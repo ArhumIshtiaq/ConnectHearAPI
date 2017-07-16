@@ -6,6 +6,10 @@ from bs4 import BeautifulSoup
 from flask import Flask, request, render_template
 from flask_restful import Resource, Api
 
+"""
+Transfer framework from Flask to Django
+"""
+
 filesLocation = "https://tricentennial-compo.000webhostapp.com/media/"
 songsLocation = filesLocation + "music/"
 videosLocation = filesLocation + "videos/"
